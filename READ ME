@@ -1,0 +1,42 @@
+# BATCAVE
+
+BATCAVE is a web application designed to be your mission control for productivity. It is built with React, TypeScript, and Supabase.
+
+## Getting Started
+
+To get started with BATCAVE, you will need to have Node.js and npm installed on your machine. You will also need a Supabase account.
+
+### Installation
+
+1.  Clone the repository:
+
+    ```bash
+    git clone https://github.com/your-username/batcave.git
+    ```
+
+2.  Install the dependencies:
+
+    ```bash
+    npm install
+    ```
+
+### Environment Variables
+
+To run the application, you will need to create a `.env` file in the root of the project. You can use the `.env.example` file as a template.
+
+The `.env` file should contain the following environment variables:
+
+*   `VITE_DATABASE_URL`: The URL of your Supabase database.
+*   `VITE_SUPABASE_ANON_KEY`: The anon key for your Supabase project.
+*   `VITE_SUPABASE_URL`: The URL of your Supabase project.
+*   `GEMINI_API_KEY` (Optional): The API key for the Gemini API.
+
+### Running the Application
+
+To run the application, you can use the following command:
+
+```bash
+npm run dev
+```
+
+This will start the development server and open the application in your browser.
